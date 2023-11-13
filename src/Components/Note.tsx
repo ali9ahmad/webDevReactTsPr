@@ -8,7 +8,7 @@ export function Note() {
 
   return (
     <>
-      <Row>
+      <Row className="align-items-center mb-4">
         <Col>
           <h1>{note.title}</h1>
           {note.tags.length > 0 && (
